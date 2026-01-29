@@ -4,7 +4,6 @@ from tqdm import tqdm
 import pickle
 import sys
 import argparse
-import re
 import glob
 from tifffile import imread, imwrite
 
@@ -15,8 +14,6 @@ from scipy import ndimage
 from skimage.measure import regionprops, label
 from data_generator.synthetic_generator import texture_mask
 from utils import load_config, setup_logger
-
-import re
 
 parser = argparse.ArgumentParser(description='Generate Synthetic Data for 3D Extrusion Event Detection.')
 parser.add_argument('--N', type=int, required=True,
@@ -211,7 +208,7 @@ gaussian_blur = synth_config['SAMPLER']['GAUSSIAN_BLUR']
 gaussian_sig = synth_config['SAMPLER']['GAUSSIAN_SIG']
 
 # Non-Config Parameters
-N_max = 800 # cells per layer (keep high to pack shapes)
+N_max = 8000 # cells per layer (keep high to pack shapes)
 w_s = 5 # Sliding window size to calculate unique integers in 2D slice
 w_z = 1 # width of layer sample space. Increase reduces uniformity, but reduces chance of extrusion (i think)
 rosette_size_parameter = 0.7 # the mean radii of rosette cells must exceed this proportion of all synthetic cell radii
