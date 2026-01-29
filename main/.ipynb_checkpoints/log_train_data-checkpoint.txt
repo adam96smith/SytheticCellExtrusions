@@ -1,0 +1,9 @@
+2026-01-29 10:16:43 | INFO | Starting synthetic data generator for 3D extrusion classifier.
+2026-01-29 10:16:43 | INFO | Samplers Loaded: 2
+2026-01-29 10:16:43 | INFO | Parameters: N_max: 800, w_s: 5, w_z: 1, rosette_size_parameter: 0.7, extrusion_p: 0.7, rotation_p: 0.2
+2026-01-29 10:17:04 | INFO | Starting synthetic data generator for 3D extrusion classifier.
+2026-01-29 10:17:04 | INFO | Samplers Loaded: 2
+2026-01-29 10:17:04 | INFO | Parameters: N_max: 800, w_s: 5, w_z: 1, rosette_size_parameter: 0.7, extrusion_p: 0.7, rotation_p: 0.2
+2026-01-29 10:17:40 | INFO | Starting synthetic data generator for 3D extrusion classifier.
+2026-01-29 10:17:40 | INFO | Samplers Loaded: 2
+2026-01-29 10:17:40 | INFO | Parameters: N_max: 800, w_s: 5, w_z: 1, rosette_size_parameter: 0.7, extrusion_p: 0.7, rotation_p: 0.2
