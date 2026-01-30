@@ -4,8 +4,8 @@ Synthetic data generation framework for simulating **cell tissues with extrusion
 
 This repository combines:
 - Parameters estimated from **real microscopy data**
-- A **synthetic tissue generator**
-- A pipeline to **insert, detect, and extract extrusion events**
+- A **synthetic embryo generator**
+- A pipeline for creating **synthetic extrusion events** in embryo
 
 ---
 
@@ -167,5 +167,6 @@ python data_generator/GeneratorPatchData.py \
     --output-dir train_data/ \
     --logger log_train_data.txt \
 ```
+
 
 
