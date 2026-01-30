@@ -149,9 +149,11 @@ The generator produces:
 - Extrusion patches  
 - Control patches  
 
+```
 train_data/
 ├── control/
 ├── extrusion/
+```
 
 ---
 
@@ -167,6 +169,7 @@ python data_generator/GeneratorPatchData.py \
     --output-dir train_data/ \
     --logger log_train_data.txt \
 ```
+
 
 
 
